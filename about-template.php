@@ -22,19 +22,19 @@ $hero_image = get_theme_mod('hero_image');
     <!-- about section starting  -->
     <div class="lg:flex-row justify-around mt-10 mb-10 md:p-8 px-5 flex flex-col gap-5 items-center overflow-hidden">
         <!-- about image -->
-        <div class="relative flex lg:w-[40%] flex items-end justify-end fade-left">
+        <div class="relative flex lg:w-[40%] flex items-end justify-end fade-left w-full">
             <img src="<?php echo get_field('image_1'); ?>" alt=""
                 class="w-full h-auto rounded-2xl lg:max-w-[35rem] md:max-h-[29rem] object-cover max-h-[20rem]" />
-            <!-- about circle -->
-            <div
+             <!-- about circle -->
+             <div
                 class="absolute bg-white rounded-full h-[10rem] w-[10rem] flex items-center justify-center bottom-[-36px] right-[-12px]">
                 <div
                     class="border-2 h-[9rem] w-[9rem] overflow-hidden border-gray-300 rounded-full flex items-center justify-center">
                     <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/curve text.png"
                         class="p-2 animate-[spin_6s_linear_infinite]" />
 
-                    <div class="bg-green-700 w-10 h-10 rounded-full absolute">
-                        <span class="text-3xl ps-2 pb-2 text-white">↗</span>
+                    <div class="bg-green-700 w-10 h-10 rounded-full absolute flex items-center justify-center rotate-[324deg]">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/icons/right-arrow-white.png" alt="">
                     </div>
                 </div>
             </div>

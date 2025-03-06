@@ -127,8 +127,8 @@ get_header(); // Include the header
                     <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/curve text.png"
                         class="p-2 animate-[spin_6s_linear_infinite]" />
 
-                    <div class="bg-green-700 w-10 h-10 rounded-full absolute">
-                        <span class="text-3xl ps-2 pb-2 text-white">↗</span>
+                    <div class="bg-green-700 w-10 h-10 rounded-full absolute flex items-center justify-center rotate-[324deg]">
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/icons/right-arrow-white.png" alt="">
                     </div>
                 </div>
             </div>
